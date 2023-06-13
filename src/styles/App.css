@@ -1,1 +1,30 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 100%;
+    padding: 2rem;
+    background-color: yellowgreen;
+}
+p{
+    margin: 1rem 0;
+}
+.child-1, .child-2{
+    padding: 1rem 0.5rem 0.5rem;
+}
+.child-1{
+    background-color: brown;
+}
+.child-2 {
+    background-color: yellow;
+}
+h1, h2 {
+    margin: 1rem 0;
+}
+button{
+    padding: 0.2rem 0.5rem;
+}
